@@ -23,6 +23,8 @@
 // -100 <= A[i][j] <= 100
 
 
+// Just overwrite the array if the number is not useful any more
+
 /**
  * @param {number[][]} A
  * @return {number}
