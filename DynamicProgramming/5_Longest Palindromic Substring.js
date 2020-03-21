@@ -105,7 +105,12 @@ let longestPalindrome = function(s) {
 
             if(len <= 1 || (s[start] === s[end -1] && resultArray[start + 1][end -1].length == len -2))
             {
-                resultArray[start][end] = s.substring(start, end);
+                let res = {
+                    start: start,
+                    end: end,
+                    length: len
+                }
+                resultArray[start][end] = res;
                 continue;
             }
             
@@ -114,5 +119,5 @@ let longestPalindrome = function(s) {
         }  
     }
     
-    return resultArray[0][s.length];    
+    return s.substring(resultArray[0][s.length].start, resultArray[0][s.length].end);    
 };
