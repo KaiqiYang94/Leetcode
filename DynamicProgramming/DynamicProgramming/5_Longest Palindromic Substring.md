@@ -137,3 +137,4 @@ Above code beats 93%.
 
 ### Manacher's Algorithm
 ![](Manacher's%20Algorithm.png)
+Pretty good explanation [here](https://www.hackerrank.com/topics/manachers-algorithm), Chinese version [here](https://www.hackerrank.com/topics/manachers-algorithm).
